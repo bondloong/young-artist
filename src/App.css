@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+ul.menu {
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем отступы*/
+  padding-left: 0; /*убираем отступы*/
+  margin-top:25px; /*делаем отступ сверху*/
+}
+a.menu-link {
+  text-decoration: none !important; /*убираем подчеркивание текста ссылок*/
+  background:#094A5F; /*добавляем фон к пункту меню*/
+  color:#fff; /*меняем цвет ссылок*/
+  padding:10px; /*добавляем отступ*/
+  font-family: arial; /*меняем шрифт*/
+  border-radius:4px; /*добавляем скругление*/
+  -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+  -o-transition: all 0.3s 0.01s ease;
+  -webkit-transition: all 0.3s 0.01s ease;
+}
+.menu-link a:hover {
+  text-decoration: underline;
+  background:#1C85BB;/*добавляем эффект при наведении*/
+}
+li.menu-item {
+  float:left; /*Размещаем список горизонтально для реализации меню*/
+  margin-right:5px; /*Добавляем отступ у пунктов меню*/
+  
+}
